@@ -1,0 +1,22 @@
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Detalhes do Pagamento</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group mr-2">
+              <a class="btn btn-sm btn-outline-info" href="/pagamento" role="button">Listar</a>
+              <a class="btn btn-sm btn-outline-primary" href="/edit-pagamento/{{id}}" role="button">Editar</a>
+              <a class="btn btn-sm btn-outline-danger" href="/del-pagamento/{{id}}" role="button">Apagar</a>
+              </div>
+            </div>
+            </div>
+
+<dl class="row">
+    <dt class="col-sm-3">ID:</dt>
+  <dd class="col-sm-9">{{id}}</dd>
+
+<dt class="col-sm-3">Nome:</dt>
+<dd class="col-sm-9">{{nome}}</dd>
+
+<dt class="col-sm-3">Valor:</dt>
+<dd class="col-sm-9">{{valor}}</dd>
+</dl>
